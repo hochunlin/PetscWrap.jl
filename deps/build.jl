@@ -30,7 +30,7 @@ else
     using PETSc_jll
     libpetsc_found = true
     libpetsc_provider = "PETSc_jll"
-    libpetsc_path = PETSc_jll.libpetsc_path
+    libpetsc_path = PETSc_jll.libpetsc_Float64_Complex_Int64_path
 end
 
 const libpetsc = libpetsc_path
